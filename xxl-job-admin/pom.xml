@@ -112,7 +112,7 @@
                 <configuration>
                     <!-- made of '[a-z0-9-_.]' -->
                     <imageName>${project.artifactId}:${project.version}</imageName>
-                    <dockerDirectory>${project.basedir}</dockerDirectory>
+                    <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
